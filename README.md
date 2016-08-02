@@ -43,7 +43,7 @@ Surf-BoF training:
 
 FSRA執行：
 
-	在ROS的FSRA文件夾更改vim src/fsra_v2.cpp的 frame_num和 foldername
+	在ROS的FSRA文件夾更改 vim src/fsra.h 的 frame_num 和 foldername
 
 編譯：
 
@@ -51,11 +51,11 @@ FSRA執行：
 
 執行：
 
-	rosrun fsra fsra_v2
+	rosrun fsra fsra
 
 Usage：
 
-	rosrun fsra fsra_v2  --> Real-time coarse pose estimation
+	rosrun fsra fsra  --> Real-time coarse pose estimation
 
 	視窗按'p'  -->  Point-cloud Alignment
 
